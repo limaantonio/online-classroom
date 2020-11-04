@@ -6,7 +6,7 @@ const links = [
   { href: 'https://nextjs.org/docs', label: 'Docs' },
 ];
 
-const Nav(): NextPage = () => {
+const Nav: NextPage = () => {
   return (
     <nav>
       <ul className="flex justify-between items-center p-8">
@@ -29,6 +29,6 @@ const Nav(): NextPage = () => {
       </ul>
     </nav>
   );
-}
+};
 
 export default Nav;
